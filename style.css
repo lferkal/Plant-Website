@@ -10,7 +10,12 @@ body{
     
 }
 
-
+.Container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 /* ---------- Header CSS ----------*/
 
@@ -418,7 +423,7 @@ li{
 }
 
 
-/* About CSS */
+/* ---------- About CSS ---------- */
 
 .About{
   margin: 80px;
@@ -493,7 +498,7 @@ li{
 }
 
 
-/* Card */
+/* ---------- Card CSS ---------- */
 
 .Cards-Flex{
   display: flex;
@@ -504,6 +509,8 @@ li{
   position: absolute;
   
 }
+
+
 
 .Card-Container{
   width: 400px;
@@ -585,3 +592,109 @@ li{
   margin-left: 600px;
   
 }
+
+/* ---------- Box CSS ---------- */
+
+.Box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+  margin: 140px;
+  color: white;
+  background: linear-gradient(to top,#0c3122 40%, #17543c );
+  height: 450px;
+  border-bottom-left-radius: 105px;
+  border-bottom-right-radius: 105px;
+}
+
+.Box-img{
+  width: 600px;
+  height: 650px;
+  margin: 30px;
+  margin-top: -100px;
+}
+
+.Box-Title{
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 150px;
+}
+
+.Box-Name{
+  font-size: 30px;
+  color: rgb(209, 176, 94);
+  font-weight: 500;
+}
+
+.Box-Name-Span{
+  font-size: 15px;
+}
+
+/* ---------- Cards2 CSS ---------- */
+
+.Cards2-Flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 250px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.Card2-Container{
+  width: 400px;
+  height: 300px;
+  background-color: #d4d2d2;
+  margin: 25px;
+}
+
+.Card2-Number-H2{
+  font-family: 'PT Serif Caption', serif;
+  font-size: 120px;
+  margin-top: -90px;
+  margin-left: 10px;
+}
+
+.Cards2-Flex-Title{
+  font-size: 60px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+
+
+/* ---------- Footer CSS ---------- */
+
+.footer-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c3122;
+  box-sizing: border-box;
+  width: 100%;
+  height: 150px;
+}
+
+.footer-Container h3 {
+  color: #ffffff;
+  font: normal 36px;
+  margin: 0;
+}
+
+/* Footer links */
+
+.footer-Container{
+  color: #ffffff;
+  margin: 20px 0 12px;
+}
+
+.footer-links a {  
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
